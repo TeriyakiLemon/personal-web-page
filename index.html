@@ -18,6 +18,14 @@
       href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&display=swap"
       rel="stylesheet"
     />
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha384-k6RqeWeci5ZR/Lv4MR0sA0FfDOM5QTbPsfFZ8QT+LkB+AM2FyPsRO8XQpLsztzjo"
+        crossorigin="anonymous"
+    />
+
+
     <link rel="stylesheet" href="style.css">
 
  </head>
@@ -26,9 +34,9 @@
     <nav>
         <div id ="navbar" class="fixed-top">
             <ul class="nav-links">
-                <li><a href="about.html">About</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="#welcome-section">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
     </nav>
@@ -36,48 +44,70 @@
 
     <!--WELCOME SECTION START-->
         <section id="welcome-section" class="welcome-section">
-            <h1>Hi, I am Jason</h1>
-            <p>a computer science student</p>
+            <h1>Hi, I am Jason Zhang</h1>
+            <p>a computer science student from University of Connecticut</p>
+            <p>I am seeking a full time software engineer or web developer role</p>
+            <p>Proficient in <i class="fab fa-java"></i> Java,  <i class="fab fa-js-square"></i>JavaScript,<i class="fab fa-python"></i>Python,  <i class="fas fa-code"></i>C++ and <i class="fas fa-code"></i>Kotlin</p>
+            <p>Skilled in frameworks and tools like  <i class="fab fa-react"></i>React, <i class="fas fa-leaf"></i>Spring Boot, <i class="fab fa-aws"></i>AWS, and <i class="fas fa-cloud"></i>Google Cloud</p>
+            <p>Experienced in <i class="fas fa-database"></i>SQL and <i class="fas fa-database"></i>NoSQL databases</p>
+            <h1>I am expecting your connection</h1>
         </section>
     <!--WELCOME SECTION END-->
 
     <!--Project section start-->
         <section id = "projects" class="projects-section" >
-            <h2 class="projects-section-header"> These are some of my work</h2>
+            <h2 class="projects-section-header"> These are some of my works</h2>
             <div class="projects-grid">
-                <a href=" " target="_blank" class="project project-tile">
+                <a href="https://github.com/TeriyakiLemon/TwitchFe" target="_blank" class="project project-tile">
                     <img src="images/project1.png" alt="Tribute Page" class="project-image">
-                    <p class="project-title">Project1</p>
+                    <p class="project-title">MyTwitch.com</p>
                 </a>
-                <a href=" " target="_blank" class="project project-tile">
+                <a href="https://github.com/TeriyakiLemon/nextai" target="_blank" class="project project-tile">
                     <img src="images/project2.png" alt="Survey Form" class="project-image">
-                    <p class="project-title">Project 2</p>
+                    <p class="project-title">NextAI Chat</p>
                 </a>
-                <a href=" " target="_blank" class="project project-tile">
+                <a href="https://github.com/TeriyakiLemon/Spotify" target="_blank" class="project project-tile">
                     <img src="images/project3.png" alt="Product Landing Page" class="project-image">
-                    <p class="project-title">Project 3</p>
-                </a>
-                <a href=" " target="_blank" class="project project-tile">
-                    <img src="images/project4.png" alt="Technical Documentation Page" class="project-image">
-                    <p class="project-title">Project 4</p>
-                </a>
+                    <p class="project-title">My Spotify</p>
+                </a>   
             </div>
+            <p>My application didn't deploy(deploy is too expensive for me <i class="fas fa-sad-tear"></i>), if you want try and see the details you can go into my github. Feel free to download or clone my source code and run them locally.</p>
+            
+            <h2>Check out my GitHub for more projects:
+                <a href="https://github.com/TeriyakiLemon" target="_blank">
+                    <i class="fab fa-github" ></i>
+                </a>
+            </h2>
         </section>
     <!--Project section end-->
     <!--Contact section start-->
-        <section id = "contact" class="contact-section">
-            <div class="contact-section-header">
-                <h2>Get in touch</h2>
-                <p>Feel free to contact me</p>
-            </div>
-            <div class = "contact-links">
-                <a href="https://www.linkedin.com/in/tianchen-zhang-3a3b3a1b3/" 
-                target="_blank"class ="btn contact-details" > 
-                <img src="images/linkedin.svg" alt="linkedin page" class="contact-image">
-                <p class="contact-link-text">linkedin</p>
-                </a>
-            </div>
-        </section>
+    <section id="contact" class="contact-section">
+        <div class="contact-section-header">
+            <h2>Get in touch</h2>
+
+        </div>
+        <div class="contact-links">
+            <a href="https://github.com/TeriyakiLemon" target="_blank" class="btn contact-details">
+                <i class="fab fa-github large-icon"></i>
+                <p class="contact-link-text">GitHub</p>
+            </a>
+            <a href="https://www.linkedin.com/in/tianchen-zhang-9a859a26b/" target="_blank" class="btn contact-details">
+                <i class="fab fa-linkedin large-icon"></i>
+                <p class="contact-link-text">LinkedIn</p>
+            </a>
+            <a href="mailto:jasontc196@gmail.com" target="_blank" class="btn contact-details">
+                <i class="fas fa-envelope large-icon"></i>
+                <p class="contact-link-text">Email: jasontc196@gmail.com</p>
+            </a>
+            <a href="tel:+19179516191" class="btn contact-details">
+                <i class="fas fa-phone large-icon"></i>
+                <p class="contact-link-text">Phone: +1 917-951-6191</p>
+            </a>
+
+
+        </div>
+    </section>
+    
     <!--Contact section end-->
     <script src = "script.js"></script>
     <footer>

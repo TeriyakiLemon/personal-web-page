@@ -214,24 +214,26 @@ img{
     font-style: italic;
 }
 
-.contact-links{
+.contact-links {
     display: flex;
     justify-content: center;
-    width: 100%;
-    max-width: 980px;
-    margin-top: 4rem;
-    flex-wrap: wrap;
+    gap: 2rem; /* 在每个链接之间添加间距 */
+    flex-wrap: wrap; /* 使其在小屏幕上换行 */
 }
 
-.contact-image{
-    width: 100%;
-    max-width: 320px;
-    margin: 0 2rem;
+.contact-details {
+    display: flex;
+    align-items: center; /* 使图标和文本在垂直方向居中 */
+    text-align: center;
+    gap: 1rem; /* 图标和文字之间的间距 */
 }
 
-.contact-link-text{
-    font-size: 2rem;
-    margin-top: 2rem;
+.large-icon {
+    font-size: 3rem; /* 放大图标 */
+}
+
+.contact-link-text {
+    font-size: 1.6rem; /* 文字的大小 */
 }
 
 /* Footer */
